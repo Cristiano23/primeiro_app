@@ -7,4 +7,8 @@ class ApplicationController < ActionController::Base
         render html: "Bye, bye"
     end
 
+    def heroku
+        render html: "Hello, Heroku"
+    end
+
 end
