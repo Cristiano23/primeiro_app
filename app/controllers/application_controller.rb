@@ -11,4 +11,8 @@ class ApplicationController < ActionController::Base
         render html: "Hello, Heroku"
     end
 
+    def byeheroku
+        render html: "Bye, bye Heroku"
+    end
+
 end
